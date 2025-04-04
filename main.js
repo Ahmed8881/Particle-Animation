@@ -80,7 +80,6 @@ function resizeCanvas() {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
     
-    // Reinitialize particles when canvas size changes
     initParticles();
 }
 
@@ -91,7 +90,6 @@ class Particle {
     }
     
     reset() {
-        // Basic properties
         this.x = Math.random() * canvas.width;
         this.y = Math.random() * canvas.height;
         this.size = Math.random() * config.size + 1;

@@ -19,3 +19,32 @@ body {
     left: 0;
     z-index: 1;
 }
+.info {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px 25px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    background: linear-gradient(45deg, #ff4aa7, #5680ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.info p {
+    font-size: 14px;
+    opacity: 0.8;
+}

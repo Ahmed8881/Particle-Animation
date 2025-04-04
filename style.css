@@ -48,3 +48,14 @@ body {
     font-size: 14px;
     opacity: 0.8;
 }
+#stats {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    font-size: 12px;
+}
